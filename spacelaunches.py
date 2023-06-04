@@ -14,13 +14,13 @@ import plotly.graph_objects as go
 import numpy as np
 
 # Data Load
-TotalsByCountry = pd.read_excel('data/spacelaunches.xlsx', sheet_name='TotalsByCountry')
+TotalsByCountry = pd.read_excel('https://github.com/MPCCoder/DV/raw/master/data/spacelaunches.xlsx', sheet_name='TotalsByCountry')
 TotalsByCountry.fillna(0, inplace=True)
 
-TotalsByCountryYear = pd.read_excel('data/spacelaunches.xlsx', sheet_name='TotalsByCountryYear')
+TotalsByCountryYear = pd.read_excel('https://github.com/MPCCoder/DV/raw/master/data/spacelaunches.xlsx', sheet_name='TotalsByCountryYear')
 TotalsByCountryYear.fillna(0, inplace=True)
 
-RawData = pd.read_excel('data/spacelaunches.xlsx', sheet_name='RawData')
+RawData = pd.read_excel('https://github.com/MPCCoder/DV/raw/master/data/spacelaunches.xlsx', sheet_name='RawData')
 # Remove future scheduled launches
 RawData = RawData[RawData['Year'] < 2023]
 
