@@ -1,5 +1,5 @@
 # --------- NOVA IMS -----------
-#  Digital Visualization Project
+#  Data Visualization Project
 # --- Space Launch Statistics ---
 # Mauro Camarinha 20170333
 # Licínio Pereira 20221252
