@@ -3,4 +3,4 @@ openpyxl
 dash
 plotly
 numpy
-guinicorn
+gunicorn
